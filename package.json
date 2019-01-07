@@ -1,0 +1,26 @@
+{
+  "name": "text2image",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "example": "example",
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "node test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erickrribeiro/text2image.git"
+  },
+
+  "keywords": ["imagemagic", "text2img"],
+  "author": "Erick Ribeiro <erick@icomp.ufam.edu.br> (https://github.com/erickrribeiro)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/erickrribeiro/text2image/issues"
+  },
+
+  "homepage": "https://github.com/erickrribeiro/text2image#readme"
+}

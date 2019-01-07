@@ -1,14 +1,6 @@
-#!/bin/bash          
-FILENAME="img-$(date +%s).png"
-
-echo "text: $2"
-echo "color: $1" 
-#echo "filename: $NAME"
-
-convert -background "$1" \
+FILENAME="img-$(date +%s%N).png"
+convert -background "red" \
 -size 800x480 \
 -fill white \
--pointsize 72 \
 -gravity center \
-label:"$2" $FILENAME
-
+label:"Hoje é dia de promoção!\n todos os produtos por 9,90!" "./$FILENAME"

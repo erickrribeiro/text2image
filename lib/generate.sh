@@ -11,7 +11,6 @@ FILENAME="img-$(date +%s%N).png"
 convert -background "$1" \
 -size 800x480 \
 -fill white \
--pointsize 72 \
 -gravity center \
 label:"$2" "$3/$FILENAME"
 echo "{\"filename\": \"$FILENAME\", \"path\":\"$3\"}"
