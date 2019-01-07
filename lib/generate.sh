@@ -10,6 +10,5 @@ convert -background "$1" \
 -fill white \
 -pointsize 72 \
 -gravity center \
-label:"$2" $FILENAME
-
+label:"$2" "$PWD/$FILENAME"
 echo "{\"filename\": \"$FILENAME\"}"
